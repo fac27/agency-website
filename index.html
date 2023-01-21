@@ -9,43 +9,55 @@
     <script src="scripts.js" defer></script>
     <meta name="description" content="Welcome to the Agency Website!">
 </head>
+<body>
+
+    <div class="nav-container">
+        <nav class="navigation">
+            <li class="navlink"><a href="">Home</a></li>
+            <li class="navlink"><a href="">Meet the Team</a></li>
+            <li class="navlink"><a href="">About</a></li>
+            <li class="navlink"><a href="">Contact</a></li>
+            <div class="navmenubutton" id="responsivemenu"></div>
+        </nav>
+    </div>
 
 
-<div class="nav-container">
-    <nav class="navigation">
-        <li class="navlink"><a href="">Home</a></li>
-        <li class="navlink"><a href="">Meet the Team</a></li>
-        <li class="navlink"><a href="">About</a></li>
-        <li class="navlink"><a href="">Contact</a></li>
-        <div class="navmenubutton" id="responsivemenu"></div>
-    </nav>
-</div>
+    <section id="section-about">
+        <h1>About us</h1>
+        <p>Short description of our agency</p>
+    </section>
 
+    <section id="section-contact">
 
+        <form id="contact-form">
+            <h1>Leave us a comment</h1>
 
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
 
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
 
+            <label for="comment">Your message</label>
+            <textarea name="comment" id="comment" rows="10" cols="30" minlength="10" maxlength="150"></textarea>
 
+            <input type="button" id="submit" value="Submit">
+        </form>
 
-<section id="section-about">
-</section>
+    </section>
 
-<section id="section-contact">
+</body>
+<footer id="footer">
+    <div id="menu">
 
-    <form id="contact-form">
-        <h1>Get in touch</h1>
+    </div>
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+    <div id="address">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+    </div>
 
-        <label for="comment">Write your message here:</label>
-        <textarea name="comment" id="comment" rows="10" cols="30" minlength="10" maxlength="150"></textarea>
+    <div id="contact">
 
-        <input type="button" id="submit" value="Submit">
-    </form>
+    </div>
 
-</section>
-
+</footer>
