@@ -13,10 +13,11 @@ body {
 
 /* TYPES OF LAYOUT WE CAN APPLY TO DIFF ELEMENTS */
 
-.flex-layout {
+.section-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 30px;
 }
 
 .horizontal-layout {
@@ -32,6 +33,14 @@ body {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+/* GREY BOX */
+.grey-box {
+    padding: 50px;
+    margin-top: 0px;
+    background: #F5F5F5;
+}
+
 
 /* .justify-space-between {
   justify-content: space-between;
