@@ -1,0 +1,43 @@
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* ALL SECTIONS STYLING */
+
+.section {
+    border: 1px solid red;
+    height: 100vh;
+}
+
+/* TYPES OF LAYOUT WE CAN APPLY TO DIFF ELEMENTS */
+
+.flex-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontal-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.vertical-space-lg {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* .justify-space-between {
+  justify-content: space-between;
+} */
+
+
+/* .width-sm{
+    width: 50px;
+} */
