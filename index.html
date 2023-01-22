@@ -10,53 +10,67 @@
     <meta name="description" content="Welcome to the Agency Website!">
 </head>
 <body>
-
+<section id="section-home" class="section">
     <div class="nav-container">
-        <nav class="navigation">
+        <nav class="navigation horizontal-layout justify-space-between">
             <li class="navlink"><a href="">Home</a></li>
-            <li class="navlink"><a href="">Meet the Team</a></li>
+            <li class="navlink"><a href="">Meet the team</a></li>
             <li class="navlink"><a href="">About</a></li>
             <li class="navlink"><a href="">Contact</a></li>
             <div class="navmenubutton" id="responsivemenu"></div>
         </nav>
     </div>
+</section>
 
+<section id="section-team" class="section flex-layout">
+    <h1>Meet the team</h1>
+    <div id="team-images">
+        <img alt="Malcom-image"/>
+        <img alt="Beth-image"/>
+    </div>
+</section>
 
-    <section id="section-about">
+<section class="section flex-layout" id="section-about">
         <h1>About us</h1>
         <p>Short description of our agency</p>
-    </section>
+</section>
 
-    <section id="section-contact">
+<section class="section flex-layout" id="section-contact">
 
-        <form id="contact-form">
-            <h1>Leave us a comment</h1>
+        <form class="flex-layout" id="contact-form" >
+            <h1 class="vertical-space-lg">Leave us a comment</h1>
 
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+            <input class="vertical-space-lg" type="text" id="name" name="name" required>
 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <input class="vertical-space-lg" type="email" id="email" name="email" required>
 
             <label for="comment">Your message</label>
-            <textarea name="comment" id="comment" rows="10" cols="30" minlength="10" maxlength="150"></textarea>
+            <textarea class="vertical-space-lg" name="comment" id="comment" rows="10" cols="30" minlength="10" maxlength="150"></textarea>
 
             <input type="button" id="submit" value="Submit">
         </form>
 
-    </section>
+</section>
 
 </body>
-<footer id="footer">
+<footer class="horizontal-layout justify-space-between" id="footer">
     <div id="menu">
-
+        <h1>Menu</h1>
+        <li>Home</li>
+        <li>Meet the team</li>
+        <li>About</li>
+        <li>Contact</li>
     </div>
 
     <div id="address">
-
+        <h1>Address</h1>
+        <p>123 XYZ Road, <br> xyz, <br> xy xyz </p>
     </div>
 
     <div id="contact">
+        <h1>Contact</h1>
 
     </div>
 
