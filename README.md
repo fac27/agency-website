@@ -1,6 +1,6 @@
 # The Agency
 
-We are <strong>The Agency</strong>, a web design team based in London, helping to shape and form the most exciting, visually appealing websites for clients who want to <strong>make an impact.</strong> Our specialty lies in creating accessible and inclusive user interfaces, whichput the end user at the heart of the experience, while showcasing your brand's key focuses and messages.
+We are <strong>The Agency</strong>, a web design team based in London, helping to shape and form the most exciting, visually appealing websites for clients who want to <strong>make an impact.</strong> Our specialty lies in creating accessible and inclusive user interfaces, which put the end user at the heart of the experience and showcase your brand's key focuses.
 
 ## Table of content
 
