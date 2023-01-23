@@ -1,8 +1,15 @@
 # The Agency
 
+We are <strong>The Agency</strong>, a web design team based in London, helping to shape and form the most exciting, visually appealing websites for clients who want to <strong>make an impact.</strong> Our specialty lies in creating accessible and inclusive user interfaces, whichput the end user at the heart of the experience, while showcasing your brand's key focuses and messages.
+
+## Table of content
+
+- [What are the fundamental aims of our agency website?](#what-are-the-fundamental-aims-of-our-agency-website)
+- [Acceptance criteria](#acceptance-criteria)
+
 ## What are the fundamental aims of our agency website?
 
-The website should give potential clients:
+Our website should give potential clients:
 
 - [x] An introduction to our agency
 - [ ] Information about each member of our team
