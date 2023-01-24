@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     font-family: sans-serif;
@@ -7,15 +10,14 @@ body {
 /* ALL SECTIONS STYLING */
 
 .section {
-    border: 1px solid red;
     height: 100vh;
+    color: white;
 }
 
 /* HEADER */
 
 .header-img {
     background-image: url("imagery-folder/agency-website-header.png");
-    color: white;
 }
 
 .header-image {
@@ -23,8 +25,8 @@ body {
 }
 
 a {
-    color: white;
     text-decoration: none;
+     color: white;
 }
 
 .no-bullets {
@@ -49,7 +51,12 @@ a:hover {
 
 .main-text {
     font-size: 70px;
+    color: white;
 }
+
+/* .fixed-nav {
+    position: fixed;
+} */
 
 /* CLASS LAYOUTS WE CAN APPLY TO MULTIPLE ELEMENTS */
 
@@ -69,6 +76,11 @@ a:hover {
     justify-content: center;
 }
 
+.vertical-flex-layout {
+    display: flex;
+    flex-direction: column;
+}
+
 .justify-space-between {
     justify-content: space-between;
 }
@@ -83,8 +95,13 @@ a:hover {
 
 .team-images {
     width: 300px;
-    padding: 60px;
+    padding: 25px 30px 20px 30px;
+    border-radius: 400px;
 
+}
+
+.dark-background {
+    background-color: rgb(129, 28, 252);
 }
 
 /* GREY BOX */

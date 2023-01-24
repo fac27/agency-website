@@ -10,13 +10,14 @@
     <meta name="description" content="Welcome to the Agency Website!">
 </head>
 <body>
-<section id="section-home" class="section header-img section-layout">
+
+<section id="section-home" class="section header-img section-layout right-text-margin">
         <nav>
             <ul class="no-bullets horizontal-flex-layout right-text-margin justify-space-between"> 
-                <li class="navlink"><a href="">HOME</a></li>
-                <li class="navlink"><a href="">THE TEAM</a></li>
-                <li class="navlink"><a href="">ABOUT</a></li>
-                <li class="navlink"><a href="">CONTACT</a></li>
+                <li class="navlink"><a href="#section-home">HOME</a></li>
+                <li class="navlink"><a href="#section-team">THE TEAM</a></li>
+                <li class="navlink"><a href="#section-about">ABOUT</a></li>
+                <li class="navlink"><a href="#section-contact">CONTACT</a></li>
             </ul>
                 <!-- <div class="navmenubutton" id="responsivemenu"></div> -->
         </nav>
@@ -32,23 +33,29 @@
     src="imagery-folder/agency-website-header.png"/> -->
 </section>
 
-<section id="section-team" class="section section-layout center-items">
-    <h1>Meet the team</h1>
+<section id="section-team" class="section section-layout center-items dark-background">
+    <h1 class="main-text">Meet the team</h1>
     <div id="team-images" class="horizontal-flex-layout">
-        <img 
-            class="team-images" 
-            src="imagery-folder/ps1 me waving.png" 
-            alt="Malcom-image"/>
-            <p>Malcolm</p>
-        <img 
-            class="team-images" 
-            src="imagery-folder/DALL.E.png" 
-            alt="Beth-image"/>
-            <p>Beth</p>
+        <div id="Malcolm" class="vertical-flex-layout">
+            <h2>MALCOLM</h2>
+            <img 
+                class="team-images" 
+                src="imagery-folder/ps1 me waving.png" 
+                alt="Malcom-image"/>
+                <p>description xjeshfoaeihgoishgoihegoihagoeih</p>
+        </div>
+        <div id="beth" class="vertical-flex-layout">
+            <h2>BETH</h2>
+            <img 
+                class="team-images" 
+                src="imagery-folder/DALL.E.png" 
+                alt="Beth-image"/>
+                <p>Beth eaofhwhg;aohgroihaer;ohiraoihoahi</p>
+        </div>
     </div>
 </section>
 
-<section class="section section-layout center-items" id="section-about">
+<section class="section section-layout center-items dark-background" id="section-about">
     <div class="grey-box">
         <h1>About us</h1>
         <p> We are a web design agency based in London, helping to shape and form the most
@@ -60,7 +67,7 @@
     </div>
 </section>
 
-<section class="section section-layout center-items" id="section-contact">
+<section class="section section-layout center-items dark-background" id="section-contact">
 
         <form class="section-layout" id="contact-form" >
             <h1 class="vertical-space-lg">Leave us a comment</h1>
