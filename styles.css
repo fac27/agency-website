@@ -11,16 +11,16 @@ body {
     height: 100vh;
 }
 
-/* TYPES OF LAYOUT WE CAN APPLY TO DIFF ELEMENTS */
+/* CLASS LAYOUTS WE CAN APPLY TO MULTIPLE ELEMENTS */
 
-.section-content {
+.section-layout {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px;
 }
 
-.horizontal-layout {
+.horizontal-flex-layout {
     display: flex;
     flex-direction: row;
 }
@@ -35,6 +35,7 @@ body {
 }
 
 /* GREY BOX */
+
 .grey-box {
     padding: 50px;
     margin-top: 0px;
@@ -42,11 +43,3 @@ body {
 }
 
 
-/* .justify-space-between {
-  justify-content: space-between;
-} */
-
-
-/* .width-sm{
-    width: 50px;
-} */
