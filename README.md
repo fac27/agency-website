@@ -12,12 +12,12 @@ We are <strong>The Agency</strong>, a web design team based in London, helping t
 Our website should give potential clients:
 
 - [x] An introduction to our agency
-- [ ] Information about each member of our team
+- [x] Information about each member of our team
 - [ ] A way to get in touch if they are interested in working with us
 
 ## Acceptance criteria
 
-- [ ] Navigation menu
+- [x] Navigation menu
 - [x] ‘About us’ section
 - [ ] Contact form
 - [ ] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
