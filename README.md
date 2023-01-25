@@ -5,7 +5,7 @@
 
 - [About the repo](#about-the-repo)
 - [What are the fundamental aims of our agency website?](#what-are-the-fundamental-aims-of-our-agency-website)
-- [User story](#acceptance-criteria)
+- [User story](#user-story)
 - [Learnings](#learnings)
 
 ## About the repo
