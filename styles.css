@@ -9,9 +9,12 @@ body {
 
 /* ALL SECTIONS STYLING */
 
-.section {
+.section-layout {
     height: 100vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
 }
 
 /* HEADER */
@@ -49,6 +52,10 @@ a:hover {
     margin-top: 40vh;
 }
 
+.margin-top-m {
+    margin-top: 15vh;
+}
+
 .main-text {
     font-size: 70px;
     color: white;
@@ -64,11 +71,6 @@ a:hover {
     text-align: center;
 }
 
-.section-layout {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-}
 
 .horizontal-flex-layout {
     display: flex;
@@ -79,6 +81,7 @@ a:hover {
 .vertical-flex-layout {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .justify-space-between {
@@ -94,10 +97,16 @@ a:hover {
 /* TEAM IMAGES */
 
 .team-images {
-    width: 300px;
-    padding: 25px 30px 20px 30px;
-    border-radius: 400px;
+    height: 50vh;
+    padding: 0px 80px 0px 80px;
+    border-radius: 50%;
+ 
 
+}
+
+.image-text {
+    width: 300px;
+    
 }
 
 .dark-background {
