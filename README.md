@@ -3,10 +3,10 @@
 
 ## Table of content
 
-- About the repo
+- [About the repo](#about-the-repo)
 - [What are the fundamental aims of our agency website?](#what-are-the-fundamental-aims-of-our-agency-website)
 - [User story](#acceptance-criteria)
-- Learnings
+- [Learnings](#learnings)
 
 ## About the repo
 
