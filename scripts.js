@@ -18,7 +18,7 @@
         an '@' symbol, then one or more characters which can be 
         letters or digits followed by a dot, and finally one or more
         characters that can be letters or digits. */
-        const emailRegex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        const emailRegex = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$/;
 
         /* If statement which checks to see if no name,  email, 
         or comment has been entered. If any fields are missing
