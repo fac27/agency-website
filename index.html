@@ -82,7 +82,7 @@
     >
         <h1 class="vertical-space-lg text-l">Leave us a comment</h1>
 
-        <form id="contact-form"></form>
+        <form id="contact-form">
 
             <label for="name">NAME</label>
             <input class="input" type="text" id="name" name="name" required>
@@ -93,7 +93,7 @@
             <label for="comment">YOUR MESSAGE</label>
             <textarea class="input" name="comment" id="comment" rows="10" cols="30" minlength="10" maxlength="150"></textarea>
 
-            <input type="button" id="submit" value="Submit">
+            <button type="submit" onclick="submitThis(event)" id="submit" value="Submit">Submit</button>
         </form>
 </section>
 
