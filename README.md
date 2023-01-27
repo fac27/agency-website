@@ -21,7 +21,6 @@
 
 ### How
 - Github [issues](https://github.com/fac27/agency-website/issues) allow us to communicate asynchronously and track our progress
-- 
 
 ## What are the fundamental aims of our agency website?
 
@@ -29,15 +28,15 @@ Our website should give potential clients:
 
 - [x] An introduction to our agency
 - [x] Information about each member of our team
-- [ ] A way to get in touch if they are interested in working with us
+- [x] A way to get in touch if they are interested in working with us
 
 ## User story
 
 - [x] Navigation menu
 - [x] ‘About us’ section
-- [ ] Contact form
-- [ ] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
-- [ ] Information from the form doesn’t get submitted until the user clicks a button
+- [x] Contact form
+- [x] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
+- [x] Information from the form doesn’t get submitted until the user clicks a button
 
 ## Spike 
 
@@ -73,7 +72,7 @@ Our website should give potential clients:
 ### Workflow 
 - [ ] Ensure our Git commit history tells a coherent story
 HTML Forms 
-- [ ] Use the appropriate input types in HTML forms for gathering different types of information
+- [x] Use the appropriate input types in HTML forms for gathering different types of information
 
 
 
