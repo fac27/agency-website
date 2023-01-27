@@ -8,7 +8,7 @@ body {
 }
 
 
-/* ALL SECTIONS STYLING */
+/* SECTION STYLING */
 
 .section-layout {
     height: 100vh;
@@ -17,7 +17,7 @@ body {
     margin: 30px;
 }
 
-.half-layout {
+.half-layout { /* ABOUT US */
     background-color: #F5F5F5;
     width: 40vw;
     padding: 40px;
@@ -74,12 +74,17 @@ a:hover {
     margin-left: 30px;
 }
 
+.text-l {
+    font-size: 50px;
+}
+
+
+
 /* CLASS LAYOUTS WE CAN APPLY TO MULTIPLE ELEMENTS */
 
 .center-items {
     text-align: center;
 }
-
 
 .horizontal-flex-layout {
     display: flex;
@@ -95,6 +100,11 @@ a:hover {
 
 .justify-space-between {
     justify-content: space-between;
+}
+
+
+.grey-box {
+    background-color: #F5F5F5;
 }
 
 /* ABOUT SECTION */
@@ -117,8 +127,26 @@ a:hover {
     
 }
 
-.dark-background {
-    background-color: #F5F5F5;
+/* FORM */
+
+.padding-form {
+    padding: 0px 200px 0px 200px;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+button{
+    padding: 20px 0px 20px 0px;
+    width: 100px;
+    background-color: transparent;
+    transition: all 500ms ease;
+    border: 2px solid black;
+    font-size: 15px;
 }
 
 /* FOOTER */
@@ -128,6 +156,12 @@ a:hover {
     height: 40vh;
     margin: 30px;
     padding: 30px 30px 0px 30px;
+    color: white;
+}
+
+#submit:hover {
+    background-color: rgba(137, 128, 128, 0.539); 
+    border: 2px solid rgba(137, 128, 128, 0.539);
     color: white;
 }
 

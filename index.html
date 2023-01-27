@@ -15,6 +15,7 @@
     id="section-home" 
     class="header-img section-layout text-right-margin" 
     style="color:white"
+    alt="A surrealist 3d image of a turquoise ribbon pattern set against a violet background."
     >
         <nav class="fixed-nav horizontal-flex-layout">
             <ul class="no-bullets horizontal-flex-layout "> 
@@ -36,7 +37,8 @@
     id="section-about"
     >
     <div id="about-image" class="margin-top-m center-image">
-        <img src="imagery-folder/DALL·E Fridapng.png" width="300"/>
+        <img src="imagery-folder/DALL·E Fridapng.png" width="300" alt="A vibrant, multicoloured, surrealist, repeated 
+        image of Frida Kahlo, wearing a red rose headdress, with yellowish skin, on a turquoise background."/>
     </div>
     <div class="half-layout">
         <h1 class="margin-top-l text-xl">About us</h1>
@@ -51,7 +53,7 @@
 
 <section 
     id="section-team" 
-    class="section-layout center-items dark-background"
+    class="section-layout center-items grey-box"
     >
     <h1 class="margin-top-m text-xl">Meet the team</h1>
     <div id="team-images" class="horizontal-flex-layout">
@@ -59,44 +61,42 @@
             <img 
                 class="team-images" 
                 src="imagery-folder/man.png" 
-                alt="Malcom-image"/>
-                <p class="image-text">My name is Malcom, and as the owner and operator of this agency, I have a deep passion for helping others achieve their goals.</p>
+                alt="A surrealist style image of a man with grey skin, black hair and moustache, 
+                wearing a yellow and pink flat cap, set against a green backdrop."/>
+                <p class="image-text">My name is Malcolm, and as the co owner and operator of this agency, I have a deep passion for helping others achieve their goals.</p>
         </div>
         <div id="beth" class="vertical-flex-layout">
             <img 
                 class="team-images" 
                 src="imagery-folder/woman.png" 
-                alt="Beth-image"/>
+                alt="A surrealist image of a woman wearing a red, yellow and blue flowery headdress, with olive skin, red lipstick, 
+                gold earrings, and wearing a red and purple shirt."/>
                 <p class="image-text">My name is Beth. Here at xyz, we have the knowledge and expertise necessary to ensure that your needs are met with the highest level of professionalism and care. </p>
         </div>
     </div>
 </section>
 
-
-
 <section 
-    class="section-layout center-items dark-background" 
+    class="section-layout center-items padding-form vertical-flex-layout" 
     id="section-contact"
     >
+        <h1 class="vertical-space-lg text-l">Leave us a comment</h1>
 
-        <form class="section-layout" id="contact-form" >
-            <h1 class="vertical-space-lg">Leave us a comment</h1>
+        <form id="contact-form">
 
-            <label for="name">Name</label>
-            <input class="vertical-space-lg" type="text" id="name" name="name" required>
+            <label for="name">NAME</label>
+            <input class="input" type="text" id="name" name="name" required>
 
-            <label for="email">Email</label>
-            <input class="vertical-space-lg" type="email" id="email" name="email" required>
+            <label for="email">EMAIL</label>
+            <input class="input" type="email" id="email" name="email" required>
 
-            <label for="comment">Your message</label>
-            <textarea class="vertical-space-lg" name="comment" id="comment" rows="10" cols="30" minlength="10" maxlength="150"></textarea>
+            <label for="comment">YOUR MESSAGE</label>
+            <textarea class="input" name="comment" id="comment" rows="10" cols="30" minlength="10" maxlength="150"></textarea>
 
-            <input type="button" id="submit" value="Submit">
+            <button type="submit" onclick="submitThis(event)" id="submit" value="Submit">Submit</button>
         </form>
-
 </section>
 
-</body>
 <footer 
     class="footer horizontal-flex-layout justify-space-between" 
     id="footer"
@@ -124,5 +124,5 @@
             <p>T: +44 800 123 456</p>
             <p>F: +44 800 123 400</p>
     </div>
-
 </footer>
+</body>
