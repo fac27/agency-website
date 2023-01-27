@@ -71,7 +71,8 @@ Our website should give potential clients:
 - [ ] Use CSS Grid to style children in two-direction layout
 ### Workflow 
 - [ ] Ensure our Git commit history tells a coherent story
-HTML Forms 
+
+## HTML Forms 
 - [x] Use the appropriate input types in HTML forms for gathering different types of information
 
 
