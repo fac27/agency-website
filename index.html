@@ -10,37 +10,41 @@
     <meta name="description" content="Welcome to the Agency Website!">
 </head>
 <body>
-
-<section 
+<header
     id="section-home" 
-    class="header-img section-layout text-right-margin" 
+    class="header-img section-layout" 
     style="color:white"
     alt="A surrealist 3d image of a turquoise ribbon pattern set against a violet background."
     >
-        <nav class="fixed-nav nav-background">
-            <ul class="no-bullets horizontal-flex-layout "> 
+        <nav 
+            id="Nav-menu" 
+            class="fixed-nav"
+            >
+            <ul id="nav-list" class="no-bullets horizontal-flex-layout nav-text "> 
                 <li><a href="#section-home">HOME</a></li>
                 <li><a href="#section-about">ABOUT</a></li>
                 <li><a href="#section-team">THE TEAM</a></li>
                 <li><a href="#section-contact">CONTACT</a></li>
             </ul>
-                <!-- <div class="navmenubutton" id="responsivemenu"></div> -->
         </nav>
-    <div class="text-right margin-top-xl text-right-margin">
-        <h1 class="text-xl">You need a good partner</h1>
-        <h2>Let us help you realise your true potential</h2>
+    <div 
+        id="header-text" 
+        class="position-text-right margin-top-xl text-right-margin"
+        >
+            <h1 class="text-xl">You need a good partner</h1>
+            <h2>Let us help you realise your true potential</h2>
     </div>
-</section>
+</header>
 
 <section 
-    class="section-layout horizontal-flex-layout justify-space-between" 
     id="section-about"
+    class="section-layout horizontal-flex-layout justify-space-between" 
     >
-    <div id="about-image" class="margin-top-m center-image">
-        <img src="imagery-folder/DALL·E Fridapng.png" width="300" alt="A vibrant, multicoloured, surrealist, repeated 
+    <div id="about-image" class="vertical-flex-layout justify-center left-margin-xs">
+        <img src="imagery-folder/DALL·E Fridapng.png" id="Frida" alt="A vibrant, multicoloured, surrealist, repeated 
         image of Frida Kahlo, wearing a red rose headdress, with yellowish skin, on a turquoise background."/>
     </div>
-    <div class="half-layout">
+    <div class="half-layout grey-box">
         <h1 class="margin-top-l text-xl">About us</h1>
         <p> We are a web design agency based in London, helping to shape and form the most
             exciting, visually appealing websites for clients who want to <strong>make an impact.</strong>
@@ -56,23 +60,32 @@
     class="section-layout center-items grey-box"
     >
     <h1 class="margin-top-m text-xl">Meet the team</h1>
-    <div id="team-images" class="horizontal-flex-layout">
-        <div id="Malcolm" class="vertical-flex-layout">
+    <div 
+        id="team-images" 
+        class="horizontal-flex-layout"
+        >
+            <div 
+            id="Malcolm" 
+            class="vertical-flex-layout"
+            >
             <img 
                 class="team-images" 
                 src="imagery-folder/man.png" 
                 alt="A surrealist style image of a man with grey skin, black hair and moustache, 
                 wearing a yellow and pink flat cap, set against a green backdrop."/>
                 <p class="image-text">My name is Malcolm, and as the co owner and operator of this agency, I have a deep passion for helping others achieve their goals.</p>
-        </div>
-        <div id="beth" class="vertical-flex-layout">
+            </div>
+        <div 
+            id="beth" 
+            class="vertical-flex-layout"
+            >
             <img 
                 class="team-images" 
                 src="imagery-folder/woman.png" 
                 alt="A surrealist image of a woman wearing a red, yellow and blue flowery headdress, with olive skin, red lipstick, 
                 gold earrings, and wearing a red and purple shirt."/>
                 <p class="image-text">My name is Beth. Here at xyz, we have the knowledge and expertise necessary to ensure that your needs are met with the highest level of professionalism and care. </p>
-        </div>
+             </div>
     </div>
 </section>
 
@@ -103,10 +116,10 @@
     >
     <div id="Menu" class="center-items">
         <h1>Menu</h1>
-            <p><a href="#section-home">HOME</a></p>
-            <p><a href="#section-about">ABOUT</a></p>
-            <p><a href="#section-team">THE TEAM</a></p>
-            <p><a href="#section-contact">CONTACT</a></p>
+            <p><a style="color:white" href="#section-home">HOME</a></p>
+            <p><a style="color:white" href="#section-about">ABOUT</a></p>
+            <p><a style="color:white" href="#section-team">THE TEAM</a></p>
+            <p><a style="color:white" href="#section-contact">CONTACT</a></p>
         </ul>
     </div>
 
