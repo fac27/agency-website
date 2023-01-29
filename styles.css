@@ -29,7 +29,7 @@ body {
 /* GENERAL SECTION properties for mobile screens */
 @media (max-width: 700px) {
     .section-layout {
-        height: auto;
+        height: 100vh;
         margin: 10px 0px 0px 0px;
 
       
@@ -75,6 +75,10 @@ body {
     #section-home {
         margin: 10px 0px 0px 0px;
     }
+
+    .margin-top-xl {
+        margin-top: 20vh;
+    }
 }
 
 
@@ -95,8 +99,6 @@ a {
     color: black;
 }
 
-
-
 a:hover {
     color: rgba(255, 255, 255, 0.539);
 }
@@ -105,15 +107,15 @@ a:hover {
     list-style-type: none; /* Remove bullets */
 }
 
-
 /* NAV properties for mobile screens */
 
 @media (max-width: 700px) {
-    #Nav-menu {
-        font-size: 10px;  
+    a {
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
-
 
 /* CLASS LAYOUTS WE CAN APPLY TO MULTIPLE ELEMENTS */
 
@@ -168,6 +170,10 @@ a:hover {
     .text-xl {
         font-size: 50px;
     }
+
+    .margin-top-l {
+        margin-top: 10vh;
+    }
     
 }
 
@@ -183,6 +189,8 @@ a:hover {
     #Frida {
         display: none;
     }
+
+
 }
 
 /* TEAM IMAGES */
