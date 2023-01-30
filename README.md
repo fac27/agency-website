@@ -60,23 +60,18 @@ Our website should give potential clients:
 ## Learnings 
 #### Accessibility 
 - [x] Structure a site using semantic HTML to aid accessibility
-- [x] Ensure a web page is readable for screen readers
-> After having looked at the site using Microsoft Narrator:
-
-> Alt text reads clearly
-
-> All headings read clearly
-
-> Site navigation with tab/arrow keys/enter is possible
-
+- [ ] Ensure a web page is readable for screen readers
 - [x] Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 - [x] Use various tools to check that our website meets accessibility criteria
 #### Design 
 - [x] Use CSS media queries to ensure our content is always presented effectively on screens of different sizes
 - [x] Demonstrate a mobile-first approach to building a website
+> We considered the mobile-first approach but due to time constraints finally adopted a web-first approach. 
 - [x] Use CSS variables to apply repeated colours to HTML elements
+> See .grey-box class
 - [x] Use CSS Flexbox to style children in a single-direction layout (ie a row or a column)
 - [x] Use CSS Grid to style children in two-direction layout
+> We did not include a two-direction layout due to time constraints. The "Our Services" features grid layout.
 ### Workflow 
 - [x] Ensure our Git commit history tells a coherent story
 
