@@ -60,7 +60,15 @@ Our website should give potential clients:
 ## Learnings 
 #### Accessibility 
 - [x] Structure a site using semantic HTML to aid accessibility
-- [ ] Ensure a web page is readable for screen readers
+- [x] Ensure a web page is readable for screen readers
+> After having looked at the site using Microsoft Narrator:
+
+> Alt text reads clearly
+
+> All headings read clearly
+
+> Site navigation with tab/arrow keys/enter is possible
+
 - [x] Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 - [x] Use various tools to check that our website meets accessibility criteria
 #### Design 
