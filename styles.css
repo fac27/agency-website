@@ -287,7 +287,7 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 8px 12px;
-    width: 90%;
+    width: 20rem;
 }
 
 button{
@@ -298,6 +298,11 @@ button{
     border: 2px solid black;
     font-size: 15px;
 }
+
+.vertical-stack {
+    display: flex;
+    flex-direction: column;
+  }
 
 /* FORM properties for mobile screens */
 @media (max-width: 700px) {
