@@ -1,7 +1,7 @@
 document.querySelector('.bar').addEventListener('click', function() {
     document.querySelector('#nav-list').classList.toggle('show');
 });
-    
+
 document.getElementById("contact-form").addEventListener("submit", function(){
     const nameInput = document.getElementById('name');
     const emailInput = document.getElementById('email');
