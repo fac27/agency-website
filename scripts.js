@@ -45,3 +45,7 @@
             commentInput.value = "";
         }
     }
+
+    document.querySelector('.bar').addEventListener('click', function() {
+        document.querySelector('#nav-list').classList.toggle('show');
+      });
