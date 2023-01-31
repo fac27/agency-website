@@ -4,7 +4,7 @@
 ## Table of content
 
 - [About the repo](#about-the-repo)
-- [How To Install](#how-to-install)
+- [How to install](#how-to-install)
 - [What are the fundamental aims of our agency website?](#what-are-the-fundamental-aims-of-our-agency-website)
 - [User story](#user-story)
 - [Spike](#spike)
@@ -24,21 +24,21 @@
 ### How
 - Github [issues](https://github.com/fac27/agency-website/issues) allow us to communicate asynchronously and track our progress
 
-## How To Install
+## How to install
 
-- Clone the repo using your terminal:
-`git clone https://github.com/fac27/agency-website`
- * The download is 3.7MB in size
+- Clone the repo using your terminal (the download is 3.7MB in size):
+
+    `git clone https://github.com/fac27/agency-website`
 
 - Open and edit the repo files inside your code editor
 
 - Any helpful contributions you wish to make are **greatly appreciated**. If you have suggestions for the project, please fork the repo and create a pull request, following these steps:
 
-    1. Fork the Project
-    2. Create your Feature Branch (git checkout -b amazing-feature)
-    3. Commit your Changes (git commit -m 'Add my amazing feature')
-    4. Push to the Branch (git push origin amazing-feature)
-    5. Open a Pull Request
+    1. Fork the project
+    2. Create your feature branch (git checkout -b amazing-feature)
+    3. Commit your changes (git commit -m 'Add my amazing feature')
+    4. Push to the branch (git push origin amazing-feature)
+    5. Open a pull request
 
 ## What are the fundamental aims of our agency website?
 
